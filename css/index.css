@@ -1,0 +1,120 @@
+/* Geral */
+* {
+    box-sizing: border-box;
+}
+/* Body */
+body{
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+/* Container */
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* Cabeçalho */
+header {
+    background:#333;
+    height: 2.25em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+    header h1{
+        font-size: 1.5em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    header .container:before{
+        content:"";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+/* main */
+section h2 {
+    font-size: 2em;
+    margin-bottom: .75em;
+    display: inline-block;
+    vertical-align: middle;
+}
+section .borda{
+    border-bottom: 1px solid #d3d1d1;
+    margin-bottom: 2.5em;
+}
+section table {
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout:fixed;
+}
+section thead, th, tr,td {
+    border: 1px solid #c1c1c1;
+    padding: .7em;
+    margin: 0;
+    text-align: center;
+}
+.titulo {
+    background-color: #EBEBEB;
+    font-weight: bold;
+    font-size: .70em;
+}
+
+.paciente td {
+    font-size: .70em;
+    text-align: center;
+    padding: .75em;
+}
+#form-adiciona {
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid #c1c1c1;
+}
+.grupo {
+    width: 50%;
+    display: inline-block;
+    padding-right: 3px;
+}
+.grupo:first-child {
+    margin-top: 20px;
+}
+label {
+    color: #24629c;
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 18px;
+    width: 50%;
+}
+
+.campo {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.campo-medio {
+    width: 50%;
+}
+.btn {
+    width: 15%;
+    font-size: 16px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-adicionar {
+    background: #24629c;
+    color: #fff;
+    box-shadow: 1px 2px 4px 0px rgb(0, 0, 0);
+}
+.btn-adicionar:active{
+    box-shadow: 0 0 0 0 #fff;
+}
+
+/* Erro IMC */
+.erro-imc {
+    background: #e2a094;
+    font-weight: bold;
+}
